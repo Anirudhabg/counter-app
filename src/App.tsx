@@ -24,9 +24,6 @@ function App() {
         <button onClick={() => setCount((count) => count - 1)}>
           Decrement
         </button>
-        <button onClick={() => setCount((count) => count = 0)}>
-          Reset
-        </button>
         <p>
           Count is {count}        </p>
       </div>
